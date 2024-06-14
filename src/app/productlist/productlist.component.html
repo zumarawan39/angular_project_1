@@ -1,0 +1,15 @@
+<div class="main_component">
+    <img [src]="product.imgPath" >
+<h3>Hello {{product.age}}</h3>
+<h3>Price{{product.price}}</h3>
+<h1>DYNAMIC CHANGING</h1>
+<h3>{{getDiscount()}}</h3>
+<h1>
+Reamining Stock
+</h1>
+<p>{{product.stock > 0 ? "Stock:" + product.stock: "No Reamainig product"}}</p>
+<button [disabled]="!(product.stock)">Submit</button><br>
+<input  type="text" (input)="onChangeValue($event)"><br>
+<p>Name:{{name}}</p>
+
+</div>

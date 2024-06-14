@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_nav h1 {
+    margin: 0;
+}
+
+.right_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right_nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.right_nav ul li:last-child {
+    margin-right: 0;
+}
+
+.right_nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.right_nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.seacrh_nav {
+    display: flex;
+    align-items: center;
+}
+
+.sear_input {
+    margin-right: 20px;
+}
+
+.sear_input input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.sear_input button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sear_input button:hover {
+    background-color: #45a049;
+}
